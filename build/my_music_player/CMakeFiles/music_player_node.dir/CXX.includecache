@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robotics/Desktop/order-audio/src/my_music_player/include/my_music_player/music_player.h
+SDL2/SDL.h
+-
+SDL2/SDL_mixer.h
+-
+
+/home/robotics/Desktop/order-audio/src/my_music_player/src/music_player_node.cpp
+my_music_player/music_player.h
+/home/robotics/Desktop/order-audio/src/my_music_player/src/my_music_player/music_player.h
+

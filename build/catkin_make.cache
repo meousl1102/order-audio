@@ -1,0 +1,2 @@
+my_music_player
+-DCATKIN_DEVEL_PREFIX=/home/robotics/Desktop/order-audio/devel -DCMAKE_INSTALL_PREFIX=/home/robotics/Desktop/order-audio/install -G Unix Makefiles

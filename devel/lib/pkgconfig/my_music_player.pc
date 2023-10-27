@@ -1,0 +1,8 @@
+prefix=/home/robotics/Desktop/order-audio/devel
+
+Name: my_music_player
+Description: Description of my_music_player
+Version: 0.0.0
+Cflags: -I/home/robotics/Desktop/order-audio/src/my_music_player/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime

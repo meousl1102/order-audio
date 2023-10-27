@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/robotics/Desktop/order-audio/src/my_music_player",
+    "files.associations": {
+        "condition_variable": "cpp",
+        "chrono": "cpp"
+    }
+}
