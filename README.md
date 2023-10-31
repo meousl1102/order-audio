@@ -24,6 +24,8 @@ sửa path_to_song ="...." thành đường dẫn trực tiếp đến nơi ch�
 
 SDL_Delay(5000); hàm này định nghĩa thời gian phát bài nhạc ở đây 5000 = 5s
 
+nếu sửa thời gian khác hãy catkin_make lại
+
 # hướng dẫn sử dụng
 Bước 1 : Download 2 thư viện sdl2 và sdl2_mixer
 
