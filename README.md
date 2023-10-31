@@ -21,6 +21,7 @@ Trong trường hợp này, nó đóng thiết bị âm thanh bằng Mix_CloseAu
 ## File music_player_node.cpp tạo node phát nhạc với việc truyền đường dẫn bài hát và thời gian phát bài nhạc đấy
 
 sửa path_to_song ="...." thành đường dẫn trực tiếp đến nơi chứa bài hát.
+
 SDL_Delay(5000); hàm này định nghĩa thời gian phát bài nhạc ở đây 5000 = 5s
 
 # hướng dẫn sử dụng
