@@ -3,7 +3,7 @@ audio-source-robotics
 
 # Thành phần trong code
 
-## File music_player.h chứ thư viện em sử dụng từ sdl2 và sdl2_mixer
+## File music_player.h 
 
 ## File music_player.cpp chứa các function sử dụng để phát và dừng đoạn nhạc Trong đó:
 
