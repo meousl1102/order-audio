@@ -30,6 +30,8 @@ sudo apt-get update
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev
 
 Bước 2 : catkin_make
+
 Bước 3 : source devel/setup.bash
+
 Bước 4 : rosrun my_music_player music_player_node 
 
