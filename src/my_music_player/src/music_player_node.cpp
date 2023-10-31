@@ -4,7 +4,7 @@ int main() {
     MusicPlayer player;
 
     // Define the path to the song
-    const char* path_to_song = "/home/robotics/Downloads/test_audio/test_audio.mp3";
+    const char* path_to_song = "/home/robotics/Desktop/order-audio/src/my_music_player/sound/test_audio.mp3";
 
     // Play the song provided in the path
     player.playSong(path_to_song);

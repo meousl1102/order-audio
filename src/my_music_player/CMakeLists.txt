@@ -68,11 +68,11 @@ target_link_libraries(music_player_node
 #   SDL2_mixer
 # )
 
-target_link_libraries(music_service_node
-  ${catkin_LIBRARIES}
-  SDL2
-  SDL2_mixer
-)
+# target_link_libraries(music_service_node
+#   ${catkin_LIBRARIES}
+#   SDL2
+#   SDL2_mixer
+# )
 
 ###########
 ## Install ##
