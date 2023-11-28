@@ -53,6 +53,7 @@ nếu sửa thời gian khác hãy catkin_make lại
 Bước 1 : Download 2 thư viện sdl2 và sdl2_mixer
 
 sudo apt-get update
+
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev
 
 Bước 2 : catkin_make
