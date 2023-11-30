@@ -29,6 +29,11 @@ void MusicPlayer::stopSong() {
     Mix_HaltMusic();
 }
 
+void MusicPlayer::setMusicVolume(int volume) {
+    // Set the volume for music
+    Mix_VolumeMusic(volume);
+}
+
 MusicPlayer::~MusicPlayer() {
     // Quit SDL2_mixer and SDL
     Mix_CloseAudio();

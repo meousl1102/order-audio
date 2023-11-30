@@ -9,8 +9,12 @@ int main() {
     // Play the song provided in the path
     player.playSong(path_to_song);
 
-    // Wait for a while (e.g., 5 seconds)
-    SDL_Delay(5000);
+    // Set the volume for music
+    player.setMusicVolume(128);
+    // 0 = mute, 64 = 50%, 128 = 100%
+
+    // Wait for a while (e.g., 5 seconds = 5000)
+    SDL_Delay(10000);
 
     // Stop the song
     player.stopSong();

@@ -11,6 +11,8 @@ public:
 
     void playSong(const char* filePath);
     void stopSong();
+    void setMusicVolume(int volume);
+
 };
 
 #endif 
