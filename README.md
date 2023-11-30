@@ -56,7 +56,9 @@ sudo apt-get update
 
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev
 
-Bước 2 : catkin_make
+Bước 2 : Xoá 2 thư mục devel và build khi git clone về
+
+catkin_make
 
 Bước 3 : source devel/setup.bash
 
