@@ -39,5 +39,10 @@ catkin_make
 source devel/setup.bash
 
 Bước 4 : khởi chạy code
-rosrun my_music_player music_player_node 
+
+rosrun my_music_player music_player_node 001.mp3 128
+
+Với 001.mp3 là tên bài hát trong folder sound 
+
+128 là 100% âm lượng 
 
